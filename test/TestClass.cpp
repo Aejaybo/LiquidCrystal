@@ -210,8 +210,7 @@ unittest(blink_high) {
   assertEqual(0, blinking);
 }
 
-unittest(cursor_high)
-{
+unittest(cursor_high) {
   // create lcd object
   LiquidCrystal_Test lcd(rs, enable, d4, d5, d6, d7);
 
